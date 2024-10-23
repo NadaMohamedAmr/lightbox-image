@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #111;
+  display: flex;
+}
+
+.img {
+  display: block;
+  cursor: pointer;
+  width: 100px; /* Example width for thumbnail */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  max-width: 540px;
+}
+
+.container .selected {
+  width: 100%; /* Ensure it takes the full width of the container */
+  max-width: 500px; /* Limit max width */
+  max-height: 800px;
+  height: auto;
+  border: 4px solid purple;
+  display: block;
+  margin: 0 auto; /* Center it */
+}
+
+.container .imgcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 0 0 0;
+}
+.container .imgcontainer img{
+  width: 100px; 
+  height: auto;
+  cursor: pointer;
+  margin: 5px 0;
+}
+.imgcontainer .active {
+  border: 4px solid purple; 
+  width: 100px; 
+  height: auto;
+}
+
+/* Media Queries for Tablets */
+@media (max-width: 768px) {
+  .selected {
+    max-width: 100%; /* Selected image takes full width on tablets */
+    max-height: 400px; /* Reduced height for better viewing on tablets */
+  }
+
+  .imgcontainer .img {
+    width: 80px; /* Smaller thumbnail size on tablets */
+    height: 80px;
+  }
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 480px) {
+  .selected {
+    max-width: 100%; /* Full width on mobile devices */
+    max-height: 300px; /* Smaller height on mobile for better fit */
+  }
+
+  .imgcontainer .img {
+    width: 80px; /* Smaller thumbnails on mobile */
+    height: 60px;
+  }
+
+  .container {
+    padding: 0 9px; /* Less padding on small screens */
+  }
+}
