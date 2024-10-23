@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lightbox-image/static/css/main.73798e37.css",
+    "main.js": "/lightbox-image/static/js/main.bb1ca98f.js",
+    "static/media/image-3.png": "/lightbox-image/static/media/image-3.9a8d10a01a95dee5c41d.png",
+    "static/media/image-5.jpg": "/lightbox-image/static/media/image-5.0375bd05fac09545325b.jpg",
+    "static/media/image-1.jpg": "/lightbox-image/static/media/image-1.6acf1aacbc88d1229878.jpg",
+    "static/media/image-4.jpg": "/lightbox-image/static/media/image-4.12e16044948a49331c6c.jpg",
+    "static/media/image-9.jpg": "/lightbox-image/static/media/image-9.9bce974f70258ccabc14.jpg",
+    "static/media/image-6.jpg": "/lightbox-image/static/media/image-6.d539eded5a95b288ef3d.jpg",
+    "static/media/image-7.jpg": "/lightbox-image/static/media/image-7.a72c9ae3902ba65336a4.jpg",
+    "static/media/image-2.jpg": "/lightbox-image/static/media/image-2.2926f953ae0a01f2a8ed.jpg",
+    "static/media/image-8.jpg": "/lightbox-image/static/media/image-8.16cc2eeab0eeba725f0a.jpg",
+    "static/media/image-10.jpg": "/lightbox-image/static/media/image-10.6a2e53994ea3e4ebd8b8.jpg",
+    "index.html": "/lightbox-image/index.html",
+    "main.73798e37.css.map": "/lightbox-image/static/css/main.73798e37.css.map",
+    "main.bb1ca98f.js.map": "/lightbox-image/static/js/main.bb1ca98f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73798e37.css",
+    "static/js/main.bb1ca98f.js"
+  ]
+}
